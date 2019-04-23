@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Current Weather Application</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1 class="top-header">Get Current Weather</h1>
+	
+	<div class="searching-area">
+		<input class="city" type="text" placeholder="Name your City">
+	    <button class="btn">Submit</button>
+	</div>
+	
+	<div class="content-area">
+        <div class="error">Enter a correct city name</div>
+        <table class="output">
+            <tr>
+                <th colspan="2" class="city-name"></th>
+            </tr>
+            <tr>
+                <td width="50%">Temperature</td>
+                <td width="50%" class="temp"></td>
+            </tr>
+            <tr>
+                <td width="50%">Pressure</td>
+                <td width="50%" class="pressure"></td>
+            </tr>
+            <tr>
+                <td width="50%">Humidity</td>
+                <td width="50%" class="humidity"></td>
+            </tr>
+            <tr>
+                <td width="50%">Wind Speed</td>
+                <td width="50%" class="wind" style="letter-spacing: 2px;"></td>
+            </tr>
+        </table>
+	</div>
+
+    <script src="index.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
